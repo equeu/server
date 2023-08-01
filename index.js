@@ -34,10 +34,10 @@ app.post("/usersignup", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
 
@@ -86,10 +86,10 @@ app.post("/companysignup", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   con.connect(function (err) {
@@ -134,10 +134,10 @@ app.post("/logout", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -220,10 +220,10 @@ app.post("/checkcompanycredentials", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -268,10 +268,10 @@ app.post("/checkcredentialsusers", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
   });
 
   con.connect(function (err) {
@@ -313,10 +313,10 @@ app.post("/useralltickets", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
   });
 
   con.connect((err) => {
@@ -377,10 +377,10 @@ app.post("/historyalltickets", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -424,10 +424,10 @@ app.post("/Companyhistoryalltickets", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -474,10 +474,10 @@ app.post("/resetpassword", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -535,10 +535,10 @@ app.post("/companyalltickets", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -589,10 +589,10 @@ function setnoti(id) {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -630,10 +630,10 @@ app.post("/getnotifications", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -684,10 +684,10 @@ app.post("/businessTickets", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -729,10 +729,10 @@ app.post("/cancelTickets", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -780,10 +780,10 @@ app.post("/delticket", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -832,10 +832,10 @@ app.post("/bookticket", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0
@@ -883,10 +883,10 @@ app.post("/markdone", (req, res) => {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
   const auth = 0;
@@ -916,10 +916,10 @@ function sendnoti(t) {
   var mysql = require("mysql");
 
   var con = mysql.createConnection({
-    host: "127.0.0.1",
-    user: "root",
-    password: "",
-    database: "ewaiting",
+    host: "bzmcqjfthcfyomdr29nk-mysql.services.clever-cloud.com",
+    user: "u4qqcbihzzmqthct",
+    password: "NOhpjqlJut072CUFfi63",
+    database: "bzmcqjfthcfyomdr29nk",
 
   });
 
